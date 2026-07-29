@@ -1,0 +1,6 @@
+.venv/
+.idea/
+__pychache__/
+.env
+.git/
+messenger_bot_api-2.0.6-py3-none-any.whl
