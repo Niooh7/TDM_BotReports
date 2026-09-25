@@ -103,9 +103,7 @@ def parcing_data_lk_prefekta_sync(on_error=None) -> bool:
         login_button.click()
 
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH,
-            '//div[@class="dashboard__block-link"]'
-            '//div[@class="button-big link"]'
-            '//div[@class="dashboard-container__links-title" and contains(text(), "Аналитика")]'
+            '/html/body/div/div/div/main/div/div/div/div[3]/div/div[1]/div[2]/div[2]/div[2]'
         )))
 
         driver.get("https://gorod.mos.ru/admin/ker/olap/report/155")
